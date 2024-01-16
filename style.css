@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    background-color: black;
+}
+form{
+    margin: 20px;
+}
+input{
+    background-color: white;
+    color: black;
+}
+button{
+    background-color: green;
+    padding: 20px;
+    margin: 0 20px;
+}
+.card{
+    margin:5px;
+    /* background-color: rgb(31, 31, 31); */
+    padding: 5px;
+    display: flex;
+    max-height: 100px;
+    font-family: "Roboto","Arial",sans-serif;
+}
+.card .image{
+    position: relative;
+    padding: 5px;
+}
+.card img{
+    position: relative;
+    height: 100px;
+    border-radius: 7px;
+}
+.card .time{
+    position: absolute;
+    color: white;
+    z-index: 1;
+    bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.811);
+    padding: 5px;
+    font-size: 0.8rem;
+    border-radius: 5px;
+    right: 10px;
+}
+.card .details{
+    padding: 5px;
+}
+.card h2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    padding: 5px 0px;
+}
+.card .general{
+    display: flex;
+    color: rgb(175, 175, 175);
+    font-size: 0.8rem;
+    padding-top: 5px;
+    gap:5px;
+}
